@@ -1,0 +1,24 @@
+Để chạy được code trên terminal Ubuntu, bạn cần cài đặt các thư viện cần thiết. Chạy lệnh sau:
+
+Cài đặt Python & pip (nếu chưa có)
+bash
+Sao chép
+Chỉnh sửa
+sudo apt update && sudo apt install python3 python3-pip -y
+Cài đặt thư viện cần thiết
+bash
+Sao chép
+Chỉnh sửa
+pip install requests
+Chạy code
+bash
+Sao chép
+Chỉnh sửa
+python3 clickword2.py
+Nếu bạn dùng proxy, hãy đảm bảo proxy hoạt động. Bạn có thể kiểm tra bằng lệnh:
+
+bash
+Sao chép
+Chỉnh sửa
+curl -x http://IP:PORT https://www.google.com -v
+Mọi thứ đã sẵn sàng!
